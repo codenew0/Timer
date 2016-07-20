@@ -12,8 +12,9 @@ Because it has been deprecated since version 3.14. But you can ignore these warn
 4. ./main
 
 # Usage
-Press "Add" button to add a timer set. Then input hour, minute or second into the first three entries.
-You can input up to 5 numbers into one entry. All the numbers will be transformed to a time number.
-ex: you input 10, 68, 3600 into the 1st, 2nd, 3rd entry, you will get a "12:08:00" timer.
-The 4th entry is to remind you after the time ends. Input some remarks to the 4th entry, you can hear a warning sound and get a notification with your remarks after the time ends.
+ Press "Add" button to add a timer set. Then input timing numbers into the first three entries.
+ You can input up to 5 numbers into one entry. And all the numbers will be transformed to a time number.
+ ex: you input 10, 68, 3600 into the 1st, 2nd, 3rd entry, you will get a "12:08:00" timer.
+ The 4th entry is to remind you after the time ends. 
+ Input some remarks to the 4th entry, you can hear a warning sound and get a notification with your remarks after the time ends.
 
