@@ -260,9 +260,7 @@ static void add_button_clicked (GtkWidget *widget, gpointer data)
 	//Entry (second)
 	cur_set->widget_set->entry_second = gtk_entry_new ();
 	gtk_entry_set_width_chars (GTK_ENTRY (cur_set->widget_set->entry_second), 5);
-	char tmp[10];
-	sprintf (tmp, "%d", cur_set->cur_line_num);
-	gtk_entry_set_text (GTK_ENTRY (cur_set->widget_set->entry_second), tmp);
+	gtk_entry_set_text (GTK_ENTRY (cur_set->widget_set->entry_second), "0");
 	gtk_entry_set_max_length (GTK_ENTRY (cur_set->widget_set->entry_second), 5);
 	gtk_grid_attach (GTK_GRID (Timer.grid), cur_set->widget_set->entry_second, col, cur_set->cur_line_num, 1, 1);
 	col++;
